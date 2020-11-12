@@ -4,6 +4,7 @@
     <HomeText></HomeText>
     <router-link to="/PageA">跳转到页面A</router-link>
     <router-link to="/PageB">跳转到页面B</router-link>
+    <router-link to="/Example">跳转到例子</router-link>
     <!-- 挂载子路由 -->
     <router-view></router-view>
   </div>
@@ -27,7 +28,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 a {
